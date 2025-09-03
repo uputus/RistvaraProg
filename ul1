@@ -1,0 +1,33 @@
+# include <stdio.h>
+//int main(){
+//    double a = 4.445673;
+//    printf("%lf\n", a);
+//    return 0;
+//}
+
+//int main() {
+//    char my_character[] = "Jaanus";
+//    char buffer[100];
+//    snprintf(buffer, sizeof(buffer), "my character %s", my_character);
+//    printf("%s\n", buffer);
+//    return 0;
+//}
+
+//int main() {
+//    char my_touwn[] = "Tallinn";
+//    int My_age = 18;
+//    char buffer[100];
+//
+//    snprintf(buffer, sizeof(buffer), "my city is %s and my age is %d", my_touwn, My_age);
+//
+//    printf("%s\n", buffer);
+//    return 0;
+//}
+
+int main(){
+    int your_number;
+    printf("enter a number: ");
+    scanf("%d",&your_number);
+    printf("number =  %d",your_number);
+    return 0;
+}
